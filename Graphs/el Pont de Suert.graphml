@@ -1165,7 +1165,7 @@
       <data key="d8">[1205838976, 1205838977, 1235129344, 1205838988, 1205838989, 1205838990, 1205838991, 1205838992, 1205838993, 274152342, 274152343, 274152402, 239706325, 239706326, 274151895, 239706328, 274151893, 239706327, 198037353, 198037358, 1205838974, 1205838975]</data>
       <data key="d9">primary</data>
       <data key="d10">2</data>
-      <data key="d17">['30', '50', '20', '60']</data>
+      <data key="d17">['50', '60', '20', '30']</data>
       <data key="d16">Eix Pirinenc</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
@@ -1261,7 +1261,7 @@
       <data key="d9">['secondary', 'primary']</data>
       <data key="d10">2</data>
       <data key="d17">60</data>
-      <data key="d16">['Eix Pirinenc', "Pont d'Estanyabero"]</data>
+      <data key="d16">["Pont d'Estanyabero", 'Eix Pirinenc']</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
       <data key="d19">5</data>
@@ -1380,7 +1380,7 @@
       <data key="d8">[274145263, 274145265, 274145268, 274144728, 580592414, 580592415]</data>
       <data key="d9">secondary</data>
       <data key="d10">2</data>
-      <data key="d17">['30', '60']</data>
+      <data key="d17">['60', '30']</data>
       <data key="d16">Eix Pirinenc</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
@@ -1424,7 +1424,7 @@
     <edge source="1507499459" target="1976204445" id="0">
       <data key="d8">[137414314, 186869202, 580592410, 580592411, 580592412, 580592413]</data>
       <data key="d9">['unclassified', 'residential']</data>
-      <data key="d16">['Pista de la Creu de Perves a Corroncui', 'Carretera de Pinyana']</data>
+      <data key="d16">['Carretera de Pinyana', 'Pista de la Creu de Perves a Corroncui']</data>
       <data key="d12">False</data>
       <data key="d13">True</data>
       <data key="d14">3721.720654177759</data>
@@ -1432,10 +1432,10 @@
     </edge>
     <edge source="1507499459" target="391834495" id="0">
       <data key="d8">[1205838978, 274145257, 1212719178, 274149781, 580592414]</data>
-      <data key="d9">['secondary', 'primary']</data>
+      <data key="d9">['primary', 'secondary']</data>
       <data key="d10">2</data>
       <data key="d17">60</data>
-      <data key="d16">['Eix Pirinenc', "Pont d'Estanyabero"]</data>
+      <data key="d16">["Pont d'Estanyabero", 'Eix Pirinenc']</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
       <data key="d19">5</data>
@@ -1448,7 +1448,7 @@
       <data key="d8">[274145263, 274145265, 274145268, 274144728, 580592414, 580592415]</data>
       <data key="d9">secondary</data>
       <data key="d10">2</data>
-      <data key="d17">['30', '60']</data>
+      <data key="d17">['60', '30']</data>
       <data key="d16">Eix Pirinenc</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
@@ -1838,7 +1838,7 @@
     <edge source="1702589646" target="1858852702" id="0">
       <data key="d8">[1234833176, 206456318]</data>
       <data key="d9">residential</data>
-      <data key="d16">['Plaça de la Canaleta', 'Carrer del Roser']</data>
+      <data key="d16">['Carrer del Roser', 'Plaça de la Canaleta']</data>
       <data key="d12">False</data>
       <data key="d13">True</data>
       <data key="d14">89.77353538786659</data>
@@ -2370,7 +2370,7 @@
     <edge source="1858852702" target="1702589646" id="0">
       <data key="d8">[1234833176, 206456318]</data>
       <data key="d9">residential</data>
-      <data key="d16">['Plaça de la Canaleta', 'Carrer del Roser']</data>
+      <data key="d16">['Carrer del Roser', 'Plaça de la Canaleta']</data>
       <data key="d12">False</data>
       <data key="d13">False</data>
       <data key="d14">89.77353538786659</data>
@@ -2596,7 +2596,7 @@
     <edge source="1858852771" target="1858852781" id="0">
       <data key="d8">[197863270, 1234833183]</data>
       <data key="d9">residential</data>
-      <data key="d16">['Carrer de Sant Aventí', 'Carrer de la Noguera de Tor']</data>
+      <data key="d16">['Carrer de la Noguera de Tor', 'Carrer de Sant Aventí']</data>
       <data key="d12">False</data>
       <data key="d13">True</data>
       <data key="d14">125.50595974955229</data>
@@ -2720,7 +2720,7 @@
     <edge source="1858852781" target="1858852771" id="0">
       <data key="d8">[197863270, 1234833183]</data>
       <data key="d9">residential</data>
-      <data key="d16">['Carrer de Sant Aventí', 'Carrer de la Noguera de Tor']</data>
+      <data key="d16">['Carrer de la Noguera de Tor', 'Carrer de Sant Aventí']</data>
       <data key="d12">False</data>
       <data key="d13">False</data>
       <data key="d14">125.50595974955229</data>
@@ -3051,7 +3051,7 @@
       <data key="d8">[1148066501, 432460745, 432460748, 197863281, 198437558]</data>
       <data key="d9">primary</data>
       <data key="d10">2</data>
-      <data key="d17">['90', '70', '50']</data>
+      <data key="d17">['50', '70', '90']</data>
       <data key="d11">N-230</data>
       <data key="d12">False</data>
       <data key="d13">False</data>
@@ -3341,7 +3341,7 @@
     <edge source="1976204445" target="1507499459" id="0">
       <data key="d8">[137414314, 186869202, 580592410, 580592411, 580592412, 580592413]</data>
       <data key="d9">['unclassified', 'residential']</data>
-      <data key="d16">['Pista de la Creu de Perves a Corroncui', 'Carretera de Pinyana']</data>
+      <data key="d16">['Carretera de Pinyana', 'Pista de la Creu de Perves a Corroncui']</data>
       <data key="d12">False</data>
       <data key="d13">False</data>
       <data key="d14">3721.720654177761</data>
@@ -3774,7 +3774,7 @@
       <data key="d8">[1148066501, 432460745, 432460748, 197863281, 198437558]</data>
       <data key="d9">primary</data>
       <data key="d10">2</data>
-      <data key="d17">['90', '70', '50']</data>
+      <data key="d17">['50', '70', '90']</data>
       <data key="d11">N-230</data>
       <data key="d19">7.5</data>
       <data key="d12">False</data>
@@ -4032,7 +4032,7 @@
     <edge source="2200383912" target="2295314476" id="0">
       <data key="d8">[25773133, 758155238]</data>
       <data key="d9">primary</data>
-      <data key="d17">['90', '50']</data>
+      <data key="d17">['50', '90']</data>
       <data key="d11">N-230</data>
       <data key="d12">False</data>
       <data key="d13">[False, True]</data>
@@ -4132,7 +4132,7 @@
     <edge source="2295314476" target="2200383912" id="0">
       <data key="d8">[25773133, 758155238]</data>
       <data key="d9">primary</data>
-      <data key="d17">['90', '50']</data>
+      <data key="d17">['50', '90']</data>
       <data key="d11">N-230</data>
       <data key="d12">False</data>
       <data key="d13">[False, True]</data>
@@ -4400,7 +4400,7 @@
       <data key="d8">[1235129344, 1205838977, 1205838976, 1205838988, 1205838989, 1205838990, 1205838991, 1205838992, 1205838993, 274152342, 274152343, 274152402, 274151893, 239706325, 274151895, 239706326, 239706327, 239706328, 198037353, 198037358, 1205838974, 1205838975]</data>
       <data key="d9">primary</data>
       <data key="d10">2</data>
-      <data key="d17">['30', '50', '20', '60']</data>
+      <data key="d17">['50', '60', '20', '30']</data>
       <data key="d16">Eix Pirinenc</data>
       <data key="d12">False</data>
       <data key="d11">N-260</data>
@@ -5110,7 +5110,7 @@
     <edge source="5485941597" target="5485941997" id="0">
       <data key="d8">[570614634, 570614638]</data>
       <data key="d9">living_street</data>
-      <data key="d16">['Plaça Major', 'Carrer del Mirador']</data>
+      <data key="d16">['Carrer del Mirador', 'Plaça Major']</data>
       <data key="d12">False</data>
       <data key="d13">True</data>
       <data key="d14">138.9780538654362</data>
@@ -5119,7 +5119,7 @@
     <edge source="5485941997" target="5485941597" id="0">
       <data key="d8">[570614634, 570614638]</data>
       <data key="d9">living_street</data>
-      <data key="d16">['Plaça Major', 'Carrer del Mirador']</data>
+      <data key="d16">['Carrer del Mirador', 'Plaça Major']</data>
       <data key="d12">False</data>
       <data key="d13">False</data>
       <data key="d14">138.97805386543624</data>
@@ -5173,7 +5173,7 @@
       <data key="d14">68.26727940225021</data>
       <data key="d15">LINESTRING (0.7396139 42.4100355, 0.7396568 42.4100093, 0.7397528 42.4099199, 0.7398251 42.4098338, 0.7398827 42.40974, 0.7399403 42.409643, 0.7400296 42.4095099)</data>
     </edge>
-    <data key="d0">2025-01-15 13:05:23</data>
+    <data key="d0">2025-01-15 18:38:03</data>
     <data key="d1">OSMnx 2.0.0</data>
     <data key="d2">epsg:4326</data>
     <data key="d3">True</data>
