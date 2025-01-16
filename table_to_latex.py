@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file
-df = pd.read_csv('metrics.csv')
+df = pd.read_csv('Metrics/metrics.csv')
 
 # Round the values to a reasonable length
 df['Number of Nodes'] = df['Number of Nodes'].round(0).astype(int)
@@ -19,7 +19,7 @@ df['Detour Index'] = df['Detour Index'].round(2)
 latex_table = df.to_latex(index=False)
 
 # Save the LaTeX table to a file using utf8 encoding
-with open('metrics_table.tex', 'w', encoding='utf8') as f:
+with open('Metrics/metrics_table.tex', 'w', encoding='utf8') as f:
     f.write(latex_table)
 
 print("LaTeX table saved to 'metrics_table.tex'")
