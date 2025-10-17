@@ -8,4 +8,32 @@ Our research aims to **characterise Catalan street networks** and connect these 
 
 ---
 
+## Project Folder Structure
+
+The repository is organized as follows:
+csn-final-project/
+│
+├── data/ # Data storage
+│ ├── raw/ # Original, unprocessed data
+├── src/ # Python scripts to generate Latex tables and R script used for the second part 
+├── notebooks/ # Jupyter notebook for the first part
+├── report/ # PDF with the final project report
+└── README.md # Project overview and documentation
+
+---
+
+## How to Run the Project
+
+The project workflow has two main steps:
+
+1. **Characterising Street Networks (Exploratory Analysis) (Python / Jupyter Notebook)**  
+   - Open the Jupyter notebook in the `notebooks/` folder.  
+   - Run the notebook cells sequentially.
+
+2. **Street Segment Length Analysis (R / Scripts in `src/`)**  
+   - Navigate to the `src/` folder in a terminal or your preferred IDE.  
+   - Run the R script to perform model selection and generate plots.  
+
+---
+
 **Keywords:** Network Science · Spatial Networks · Street Networks

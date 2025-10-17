@@ -1,0 +1,12 @@
+# Ignore cache and temporary files
+notebooks/cache/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated data and visualisations
+visualisations/
+data/processed/
