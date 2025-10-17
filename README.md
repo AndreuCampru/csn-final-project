@@ -38,7 +38,7 @@ The project workflow has two main steps:
 
 2. **Street Segment Length Analysis (R Script in `src/`)**  
    - Navigate to the `src/` folder in a terminal or your preferred IDE.  
-   - Run the R script to perform model selection and generate plots.  
+   - Run the R script.  
 
 ---
 
