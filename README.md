@@ -21,6 +21,7 @@ The repository is organised as follows:
 └── notebooks
 └── report
 ├── README.md
+├── requirements.txt
 
 ```
 
