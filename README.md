@@ -1,4 +1,4 @@
-# CSN Research Project
+# CSN Final Project
 
 Cities and urban systems are intricate networks of streets and paths forming the backbone of human interaction and travel behaviour. By modelling these systems as graphs—where intersections and dead-ends are vertices, and street segments are edges—we can analyse their structural properties to gain insights into **urban design** and **transportation efficiency**.
 
